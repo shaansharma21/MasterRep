@@ -1,0 +1,872 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4627961963,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Initialize()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should be able to calculate the ideal range for buying a car",
+        "description": "",
+        "id": "what-can-i-afford---auto-calculator;user-should-be-able-to-calculate-the-ideal-range-for-buying-a-car;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 321272199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123470551,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the Edmunds Calculator WebPage",
+            "match": {
+              "location": "test.Calculator_WebPage_Verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104862630,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"200\" in Monthly Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Monthly_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5124978569,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Go Button",
+            "match": {
+              "location": "test.Go_Button_Click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81466,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"22030\" in Zip Code Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22030",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Zip_Code_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64563,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects \"36 months\" in Loan Term Drop Down Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "36 months",
+                  "offset": 14
+                }
+              ],
+              "location": "test.user_selects_in_Loan_Term_Drop_Down_Box(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58825,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"2.8\" in Finance Rate Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.8",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Finance_Rate_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48505,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"10000\" in Trade in Value Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Trade_in_Value_Field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89318,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"0\" in Amounted Owed Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Amounted_Owed_Field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71825,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"1000\" in Cash Down Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Cash_Down_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21286,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Calculate Button",
+            "match": {
+              "location": "test.user_clicks_Calculate_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1635616089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Initialize()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to calculate the ideal range for buying a car",
+        "description": "",
+        "id": "what-can-i-afford---auto-calculator;user-should-be-able-to-calculate-the-ideal-range-for-buying-a-car;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 255879235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5998651,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the Edmunds Calculator WebPage",
+            "match": {
+              "location": "test.Calculator_WebPage_Verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222869094,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"300\" in Monthly Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Monthly_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6197021546,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Go Button",
+            "match": {
+              "location": "test.Go_Button_Click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104340,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"22031\" in Zip Code Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22031",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Zip_Code_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80570,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects \"48 months\" in Loan Term Drop Down Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "48 months",
+                  "offset": 14
+                }
+              ],
+              "location": "test.user_selects_in_Loan_Term_Drop_Down_Box(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95125,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"3.5\" in Finance Rate Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.5",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Finance_Rate_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88383,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"11000\" in Trade in Value Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Trade_in_Value_Field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73288,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"1000\" in Amounted Owed Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Amounted_Owed_Field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48638,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"2000\" in Cash Down Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Cash_Down_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20028,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Calculate Button",
+            "match": {
+              "location": "test.user_clicks_Calculate_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4124587780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Initialize()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User should be able to calculate the ideal range for buying a car",
+        "description": "",
+        "id": "what-can-i-afford---auto-calculator;user-should-be-able-to-calculate-the-ideal-range-for-buying-a-car;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 318614312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16881872,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the Edmunds Calculator WebPage",
+            "match": {
+              "location": "test.Calculator_WebPage_Verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130328789,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"400\" in Monthly Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Monthly_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5420646461,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Go Button",
+            "match": {
+              "location": "test.Go_Button_Click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70379,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"22032\" in Zip Code Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22032",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Zip_Code_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53452,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects \"60 months\" in Loan Term Drop Down Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60 months",
+                  "offset": 14
+                }
+              ],
+              "location": "test.user_selects_in_Loan_Term_Drop_Down_Box(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91628,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"3.8\" in Finance Rate Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.8",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Finance_Rate_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54381,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"12000\" in Trade in Value Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Trade_in_Value_Field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54874,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"500\" in Amounted Owed Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Amounted_Owed_Field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60258,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"3000\" in Cash Down Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Cash_Down_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18013,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Calculate Button",
+            "match": {
+              "location": "test.user_clicks_Calculate_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4171612270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Initialize()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User should be able to calculate the ideal range for buying a car",
+        "description": "",
+        "id": "what-can-i-afford---auto-calculator;user-should-be-able-to-calculate-the-ideal-range-for-buying-a-car;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 243739109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.Closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6935367,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the Edmunds Calculator WebPage",
+            "match": {
+              "location": "test.Calculator_WebPage_Verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112955236,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"500\" in Monthly Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Monthly_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7238278832,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Go Button",
+            "match": {
+              "location": "test.Go_Button_Click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80304,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"22030\" in Zip Code Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22030",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Zip_Code_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49680,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects \"72 months\" in Loan Term Drop Down Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "72 months",
+                  "offset": 14
+                }
+              ],
+              "location": "test.user_selects_in_Loan_Term_Drop_Down_Box(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41288,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"4.0\" in Finance Rate Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4.0",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Finance_Rate_Field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72187,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"13000\" in Trade in Value Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Trade_in_Value_Field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69645,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"2000\" in Amounted Owed Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Amounted_Owed_Field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84673,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"4000\" in Cash Down Payment Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 13
+                }
+              ],
+              "location": "test.user_enters_in_Cash_Down_Payment_Field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26654,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks Calculate Button",
+            "match": {
+              "location": "test.user_clicks_Calculate_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "What can I afford - Auto Calculator",
+    "description": "",
+    "id": "what-can-i-afford---auto-calculator",
+    "keyword": "Feature",
+    "uri": "What_Can_I_Afford.feature"
+  }
+]

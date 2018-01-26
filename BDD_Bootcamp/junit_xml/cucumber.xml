@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="40.406284">
+<testcase classname="What can I afford - Auto Calculator" name="User should be able to calculate the ideal range for buying a car" time="10.302982">
+<system-out><![CDATA[Given User navigates to the Edmunds Calculator WebPage......................passed
+When User enters "200" in Monthly Payment Field.............................passed
+And User clicks Go Button...................................................passed
+Then User enters "22030" in Zip Code Field..................................passed
+Then User selects "36 months" in Loan Term Drop Down Box....................passed
+Then User enters "2.8" in Finance Rate Field................................passed
+Then User enters "10000" in Trade in Value Field............................passed
+Then User enters "0" in Amounted Owed Field.................................passed
+Then User enters "1000" in Cash Down Payment Field..........................passed
+Then User clicks Calculate Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="What can I afford - Auto Calculator" name="User should be able to calculate the ideal range for buying a car 2" time="8.317895">
+<system-out><![CDATA[Given User navigates to the Edmunds Calculator WebPage......................passed
+When User enters "300" in Monthly Payment Field.............................passed
+And User clicks Go Button...................................................passed
+Then User enters "22031" in Zip Code Field..................................passed
+Then User selects "48 months" in Loan Term Drop Down Box....................passed
+Then User enters "3.5" in Finance Rate Field................................passed
+Then User enters "11000" in Trade in Value Field............................passed
+Then User enters "1000" in Amounted Owed Field..............................passed
+Then User enters "2000" in Cash Down Payment Field..........................passed
+Then User clicks Calculate Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="What can I afford - Auto Calculator" name="User should be able to calculate the ideal range for buying a car 3" time="10.011462">
+<system-out><![CDATA[Given User navigates to the Edmunds Calculator WebPage......................passed
+When User enters "400" in Monthly Payment Field.............................passed
+And User clicks Go Button...................................................passed
+Then User enters "22032" in Zip Code Field..................................passed
+Then User selects "60 months" in Loan Term Drop Down Box....................passed
+Then User enters "3.8" in Finance Rate Field................................passed
+Then User enters "12000" in Trade in Value Field............................passed
+Then User enters "500" in Amounted Owed Field...............................passed
+Then User enters "3000" in Cash Down Payment Field..........................passed
+Then User clicks Calculate Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="What can I afford - Auto Calculator" name="User should be able to calculate the ideal range for buying a car 4" time="11.773945">
+<system-out><![CDATA[Given User navigates to the Edmunds Calculator WebPage......................passed
+When User enters "500" in Monthly Payment Field.............................passed
+And User clicks Go Button...................................................passed
+Then User enters "22030" in Zip Code Field..................................passed
+Then User selects "72 months" in Loan Term Drop Down Box....................passed
+Then User enters "4.0" in Finance Rate Field................................passed
+Then User enters "13000" in Trade in Value Field............................passed
+Then User enters "2000" in Amounted Owed Field..............................passed
+Then User enters "4000" in Cash Down Payment Field..........................passed
+Then User clicks Calculate Button...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
